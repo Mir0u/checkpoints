@@ -90,10 +90,39 @@ a:hover,a.active{
 }
 }
 section{
-    background: url(/res/istockphoto-1150477705-612x612.jpg) no-repeat;
-    background-size: cover;
-    height: calc(100vh - 80px);
+    display:flex;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: lighter;
 }
+section h2{
+    color:orangered;
+    text-align:justify;
+    text-decoration: wavy;
+    margin-bottom: 20%;
+}
+section h3{
+    color: rgb(0, 255, 34);
+}
+.container-for-home-furniturs{
+width: 25%;
+margin-right: 5%;
+margin-top: 10%;
+padding:1% 1% 1% 1%;
+background-image: url(/res/téléchargement.jpg);visibility:inherit;
+border-radius: 20%;
+}
+.services-container-for-tech-list{
+    width: 25%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-left: 5%;
+    padding: 1% 1% 1% 1%;
+    background-image:url(/res/tech.jpg);
+    border-radius: 15%;
+    
+    }
 footer{
     position:fixed;
     bottom: 0%;
